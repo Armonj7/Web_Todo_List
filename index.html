@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List App</title>
+
+     <!-- link to external style sheet here -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Add largest heading here -->
+        <h1>To-Do List</h1>
+
+        <form id="todo-form">
+
+            <!-- Add input for new task here -->
+            <input id="todo-input" type="text" placeholder="Enter a new task">
+
+            <!-- Add submit button here -->
+            <button type='submit'>Add Task</button>
+
+        </form>
+
+        <ul id="todo-list">
+
+            <!--add a couple list items here-->
+            <li><strong>Eat breakfast</strong><button class='btn remove'>Remove</button></li><br>
+            <li><strong>Go to school</strong><button class='btn remove'>Remove</button></li><br>
+            <li><strong>Go to work</strong><button class='btn remove'>Remove</button></li><br>   
+
+        </ul>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>

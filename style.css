@@ -1,0 +1,54 @@
+body {
+    margin: 200px 500px;
+    border: smooth grey;
+    padding: 20px 20px;
+    border-radius:10px;
+    box-shadow:1px 1px 5px 3px lightgrey;
+    max-width:310px;
+    margin:0 auto;
+}
+
+h1 {
+    text-align:center;
+    font-family:arial;
+}
+
+ul {
+    text-align:left;
+    list-style-type:none;
+    margin-left:33% 30%;
+    font-family:arial;
+}
+
+li {
+    border-style:smooth;
+    background-color:rgb(251, 251, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+}
+
+li button {
+    color:white;
+    background-color:red;
+    border-radius: 5px 5px 5px 5px;
+    height:24px;
+    margin-right:5%;
+}
+
+form {
+    text-align:left;
+}
+
+form button {
+    color:white;
+    background-color:green;
+    border-radius: 5px 5px 5px 5px ;
+    height:35px;
+}
+
+form input {
+    width:225px;
+    height:25px;
+}
